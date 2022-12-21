@@ -9,9 +9,9 @@ float f( float a){
 }
 
 int main() {
-    float a=0, b=0, m=0,err=1;
+    float a=0, b=0, m=0, err=1;
     while((f(a)* f(b))>=0){
-        cout<<"inserire gli estremi"<<endl;
+        cout<<"inserire estremi"<<endl;
         cin>>a>>b;
     }
 
